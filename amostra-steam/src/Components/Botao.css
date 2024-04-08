@@ -1,0 +1,13 @@
+.yellow-button {
+    background-color: #F3CD00;
+    color: black;
+    font-size: 38px;
+    font-style: bold;
+    font-family: 'Roboto';
+    padding: 5px 75px;
+    border: none;
+    cursor: pointer;
+    margin-left: 400px;
+    margin-top: 20px;
+    border-radius: 15px;
+}

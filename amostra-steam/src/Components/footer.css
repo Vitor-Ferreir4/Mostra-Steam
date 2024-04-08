@@ -1,0 +1,32 @@
+.Footer{
+
+    font-style: 'bold';
+    background-color: #f36d12;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto';
+    margin-top: 170px;
+    padding: 0.7%;
+    line-height: 0.5;
+}
+
+.Footer2{
+    font-size: calc(25px + 2vmin);
+    text-align: center;
+}
+
+.Footer3{
+    font-size: calc(15px + 2vmin);
+    text-indent: 350px;
+}
+
+.Footer-Img{
+    height: 40px;
+    width: 170px;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+    left: 676px;
+    bottom: 59.5px;
+}
