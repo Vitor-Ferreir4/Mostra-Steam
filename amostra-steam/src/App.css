@@ -36,4 +36,10 @@
   line-height: 0.5;
 }
 
+.Imagem{
+  position: relative;
+  margin-top: -450px;
+  margin-left: 900px;
+  z-index: 10;
 
+}

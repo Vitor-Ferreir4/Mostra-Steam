@@ -1,5 +1,5 @@
 .yellow-button {
-    background-color: #F3CD00;
+    background-color: #f3cf00fb;
     color: black;
     font-size: 38px;
     font-style: bold;
@@ -7,7 +7,13 @@
     padding: 5px 75px;
     border: none;
     cursor: pointer;
-    margin-left: 400px;
-    margin-top: 20px;
+    margin-left: 350px;
+    margin-top: 0px;
     border-radius: 15px;
+    transition: background-color 0.3s;
+}
+
+.yellow-button:hover{
+    background-color: #030300fd;
+    color: #fff
 }

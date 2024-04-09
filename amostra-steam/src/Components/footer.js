@@ -4,9 +4,14 @@ import "./footer.css";
 function Footer(){
     return(
         <footer className="Footer" alt="">
-            <p className="Footer2">PARCEIROS</p>
+            <h1 className="Footer2">PARCEIROS</h1>
             <p className="Footer3">BĒHANCE</p>
-            <img className="Footer-Img" src={require('../assets/Linkedin.png')} alt=""/>
+            <a href="https://br.linkedin.com">
+                <img className="Footer-Img" src={require('../assets/Linkedin.png')} alt=""/>
+            </a>
+            <a href="https://www.alura.com.br">
+                <img className="Footer-Img2" src={require('../assets/alura.png')} alt="" width={200}/>
+            </a>
             <hr className="Linha"></hr>
         </footer>
     )
