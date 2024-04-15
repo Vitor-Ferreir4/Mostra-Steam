@@ -11,6 +11,7 @@ import Imagem from './Components/Imagem.js'
 
 
 
+
 function App() {
   return (
     <header>
@@ -18,7 +19,6 @@ function App() {
         <Navbar/>
         <Logo className="App-logo"/>
       </div>
-
       <div>
         <Texto1/>
       </div>

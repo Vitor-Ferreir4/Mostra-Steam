@@ -13,10 +13,6 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
 .App-logo {
   position: absolute;
   top: 10px;
@@ -31,16 +27,17 @@
   align-items: center;
   justify-content: center;
   font-size: calc(40px + 2vmin);
-  top: 120px;
-  margin-left: 300px;
+  top: 150px;
+  left: 330px;
   font-family: 'Roboto';
   line-height: 0.5;
+  z-index: 50;
 }
 
 .Imagem{
   position: relative;
   top: -225px;
-  margin-left: 510px;
+  left: 515px;
   z-index: 10;
 
 }

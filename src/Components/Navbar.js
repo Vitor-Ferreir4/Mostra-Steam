@@ -1,5 +1,5 @@
 import React from 'react';
-import './Navbar.css'; // Importa o arquivo de estilo
+import './Navbar.css';
 
 function Navbar() {
   return (
@@ -13,6 +13,9 @@ function Navbar() {
         </li>
         <li className="nav-item">
           <a href="/Suporte" className="nav-link">Suporte</a>
+        </li>
+        <li className="nav-item">
+          <a href="/Comunidade" className="nav-link">Comunidade</a>
         </li>
       </ul>
     </nav>

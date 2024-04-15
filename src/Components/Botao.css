@@ -8,7 +8,7 @@
     border: none;
     cursor: pointer;
     position: relative;
-    left: 300px;
+    left: 275px;
     top: -515px;
     border-radius: 15px;
     transition: background-color 0.3s;
@@ -29,10 +29,11 @@
     border: none;
     cursor: pointer;
     position: relative;
-    left: 520px;
+    left: 530px;
     top: -570px;
     border-radius: 15px;
     transition: background-color 0.3s;
+    z-index: 9999;
 }
 
 .blue-button-signup:hover{

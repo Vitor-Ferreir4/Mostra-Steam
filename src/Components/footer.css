@@ -1,12 +1,12 @@
 .Footer{
 
     font-style: 'bold';
-    background-color: #f36d12;
+    background-color: coral;
     background-repeat: no-repeat;
     align-items: center;
     justify-content: center;
     font-family: 'Roboto';
-    margin-top: -100px;
+    margin-top: -300px;
     padding: 0.7%;
     line-height: 0.5;
 }
