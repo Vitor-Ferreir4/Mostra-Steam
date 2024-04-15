@@ -1,0 +1,51 @@
+.Footer{
+
+    font-style: 'bold';
+    background-color: #f36d12;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto';
+    margin-top: -100px;
+    padding: 0.7%;
+    line-height: 0.5;
+}
+
+.Footer2{
+    font-size: calc(25px + 2vmin);
+    text-align: center;
+    line-height: 2;
+}
+
+.Footer3{
+    font-size: calc(15px + 2vmin);
+    text-indent: 350px;
+}
+
+
+
+.Footer-Img{
+    height: 40px;
+    width: 170px;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+    left: 695px;
+    bottom: 92px;
+}
+
+.Footer-Img2{
+    justify-items: center;
+    align-items: center;
+    position: relative;
+    left: 800px;
+    top: -83px;
+}
+
+.Footer-Img3{
+    justify-items: center;
+    align-items: center;
+    position: relative;
+    top: -48px;
+    left: 100px;
+}
