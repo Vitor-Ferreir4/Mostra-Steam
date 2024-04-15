@@ -1,5 +1,4 @@
 .Footer{
-
     font-style: 'bold';
     background-color: coral;
     background-repeat: no-repeat;
@@ -16,13 +15,6 @@
     text-align: center;
     line-height: 2;
 }
-
-.Footer3{
-    font-size: calc(15px + 2vmin);
-    text-indent: 350px;
-}
-
-
 
 .Footer-Img{
     height: 40px;

@@ -9,7 +9,7 @@
     cursor: pointer;
     position: relative;
     left: 275px;
-    top: -515px;
+    top: -512px;
     border-radius: 15px;
     transition: background-color 0.3s;
 }
@@ -30,7 +30,7 @@
     cursor: pointer;
     position: relative;
     left: 530px;
-    top: -570px;
+    top: -566px;
     border-radius: 15px;
     transition: background-color 0.3s;
     z-index: 9999;
