@@ -1,11 +1,11 @@
 .navbar {
     background-color: transparent;
-    display: flex; /* Adiciona display flex para os itens da navbar */
-    align-items: center; /* Centraliza verticalmente os itens na navbar */
+    display: flex;
+    align-items: center;
     justify-content: center;
-    height: 60px; /* Ajusta a altura da navbar */
-    padding: 0 20px; /* Adiciona espaçamento interno nos lados da navbar */
-    position: relative; /* Para usar z-index */
+    height: 60px;
+    padding: 0 20px;
+    position: relative;
     z-index: 2;
     
   }
@@ -14,8 +14,8 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex; /* Adiciona display flex para os itens da navbar-nav */
-    justify-content: center; /* Centraliza os itens horizontalmente */
+    display: flex;
+    justify-content: center;
   }
   
   .nav-item {
@@ -28,8 +28,8 @@
     color: #000000;
     text-decoration: none;
     padding: 10px;
-    border-radius: 30px; /* Adiciona bordas arredondadas */
-    transition: background-color 0.3s; /* Adiciona transição suave de cor de fundo */
+    border-radius: 30px;
+    transition: 0.3s;
   }
   
   .nav-link:hover {

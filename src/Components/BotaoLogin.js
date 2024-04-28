@@ -3,9 +3,7 @@ import './Botao.css';
 function BotaoLogin(){
     return(
        <div>
-            <div>
-                <button class="yellow-button-login">Login</button>
-            </div>
+            <button class="yellow-button-login">Login</button>
         </div>
     )
 }

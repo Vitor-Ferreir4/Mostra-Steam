@@ -3,9 +3,7 @@ import './Botao.css';
 function BotaoSignUp(){
     return(
         <div>
-            <a href='https://www.google.com/search?q=olhos+de+gato&sca_esv=725efba4277893af&sca_upv=1&rlz=1C1ONGR_pt-PTBR1106BR1106&ei=zYYdZrm-PMar1sQPqbWiqAc&udm=&gs_ssp=eJzj4tVP1zc0TCsqLk9Oy80wYPTizc_JyC9WSElVSE8syQcAlsQKAA&oq=olhos+de&gs_lp=Egxnd3Mtd2l6LXNlcnAiCG9saG9zIGRlKgIIADIIEC4YsQMYgAQyCBAAGIAEGLEDMhEQLhiABBiKBRixAxiDARjUAjIFEAAYgAQyBRAuGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMg4QABiABBiKBRixAxiDATIFEAAYgAQyFxAuGLEDGIAEGJcFGNwEGN4EGOAE2AEDSNUUUABYjQ1wAXgBkAEAmAHEAaABjguqAQMwLji4AQPIAQD4AQGYAgmgApMMqAIUwgITEC4YgAQYigUYQxjqAhi0AtgBAcICExAAGIAEGIoFGEMY6gIYtALYAQHCAhMQLhhDGIAEGIoFGOoCGLQC2AEBwgIWEAAYAxiPARjlAhjqAhi0AhiMA9gBAsICFhAuGAMYjwEY5QIY6gIYtAIYjAPYAQLCAgoQLhiABBiKBRhDwgIOEC4YgAQYsQMYgwEY1ALCAgsQABiABBixAxiDAcICDRAuGIAEGIoFGEMY1ALCAhkQLhiABBiKBRhDGJcFGNwEGN4EGOAE2AEDwgINEC4YgAQYigUYQxixA8ICCxAuGIAEGLEDGIMBwgIIEC4YgAQYsQPCAg4QLhiABBjHARivARiOBcICGhAuGIAEGLEDGIMBGJcFGNwEGN4EGOAE2AEDmAMRugYECAEYB7oGBggCEAEYCroGBggDEAEYFJIHBTEuNy4xoAfgjAE&sclient=gws-wiz-serp'>
-                <button class="blue-button-signup">Cadastro</button>
-            </a>
+            <button class="blue-button-signup">Cadastro</button>
         </div>
     )
 }

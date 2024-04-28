@@ -1,15 +1,12 @@
 import './App.css'
-import Navbar from './Components/Navbar'
+import Navbar from './Components/Navbar.js'
 import React from 'react'
-import { ReactComponent as Logo } from './logo.svg'
+import { ReactComponent as Logo } from './assets/logo.svg'
 import Texto1 from './Components/Texto1.js'
 import BotaoLogin from './Components/BotaoLogin.js'
-import BotaoSignUp from './Components/BotaoSignUp'
-import Footer from './Components/footer'
+import BotaoSignUp from './Components/BotaoSignUp.js'
+import Footer from './Components/footer.js'
 import Imagem from './Components/Imagem.js'
-
-
-
 
 
 function App() {
