@@ -1,41 +1,39 @@
 import './App.css'
-import Navbar from './Components/Navbar.js'
+import Navbar from './JS/Navbar.js'
 import React from 'react'
 import { ReactComponent as Logo } from './assets/logo.svg'
-import Texto1 from './Components/Texto1.js'
-import BotaoLogin from './Components/BotaoLogin.js'
-import BotaoSignUp from './Components/BotaoSignUp.js'
-import Footer from './Components/footer.js'
-import Imagem from './Components/Imagem.js'
-
+import Texto1 from './JS/Texto1.js'
+import BotaoLogin from './JS/BotaoLogin.js'
+import BotaoSignUp from './JS/BotaoSignUp.js'
+import Footer from './JS/footer.js'
+import Imagem from './JS/Imagem.js'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import Cadastro from './JS/Cadastro.js'
+import Login from './JS/Login.js'
+import Home from './JS/Home.js'
 
 function App() {
   return (
-    <header>
-      <div className="App">
-        <Navbar/>
-        <Logo className="App-logo"/>
-      </div>
-      <div>
-        <Texto1/>
-      </div>
+    <Router>
+        <header>
+          <div className="App">
+            <Navbar/>
+            <Logo className="App-logo"/>
+          </div>
+          <Routes>
+            <Route exact path="/" element={<Home/>} />
+            <Route exact path="/Sobre" element={<BotaoSignUp/>} />
+            <Route exact path="/Suporte" element={<BotaoSignUp/>} />
+            <Route exact path="/Comunidade" element={<BotaoSignUp/>} />
+            <Route exact path="/cadastro" element={<Cadastro/>} />
+            <Route exact path="/login" element={<Login/>} />
+            </Routes>
 
-      <div  className='Imagem'>
-      <Imagem/>
-      </div>
-
-      <div className='BotaoLogin'>
-        <BotaoLogin/>
-      </div>
-
-      <div className='BotaoSignUp'>
-        <BotaoSignUp/>
-      </div>
-
-      <div>
-        <Footer/>
-      </div>
-    </header>
+          <div>
+            <Footer/>
+          </div>
+      </header>
+    </Router>
   );
 }
 

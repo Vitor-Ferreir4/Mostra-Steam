@@ -22,13 +22,42 @@
 }
 
 .footer-heading {
+  position: relative;
   font-size: 24px;
+  right: 85px;
+  margin-bottom: 20px;
+}
+
+.footer-heading1 {
+  position: relative;
+  font-size: 24px;
+  right: 85px;
+  color: black;
+  top: 1px;
+  margin-bottom: 20px;
+}
+
+.footer-heading2 {
+  position: relative;
+  font-size: 24px;
+  right: 5px;
+  color: black;
+  top: 1px;
+  margin-bottom: 20px;
+}
+
+.footer-heading3 {
+  position: relative;
+  font-size: 24px;
+  left: 5px;
+  color: black;
+  top: 1px;
   margin-bottom: 20px;
 }
 
 .footer-description {
     position: relative;
-    right: 50px;
+    right: 100px;
     font-size: 18px;
     line-height: 1.5;
     color: black;

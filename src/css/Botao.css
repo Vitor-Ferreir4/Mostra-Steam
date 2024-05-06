@@ -8,8 +8,8 @@
     border: none;
     cursor: pointer;
     position: relative;
-    left: 275px;
-    top: -512px;
+    left: 470px;
+    top: -545px;
     border-radius: 15px;
     transition: background-color 0.3s;
 }
@@ -29,14 +29,24 @@
     border: none;
     cursor: pointer;
     position: relative;
-    left: 530px;
-    top: -566px;
+    left: 730px;
+    top: -600px;
     border-radius: 15px;
-    transition: background-color 0.3s;
+    transition: color 0.3s;
     z-index: 9999;
 }
 
 .blue-button-signup:hover{
     color: white;
     background-color: #030300fd;
+}
+
+.cad-link{
+    color: black;
+    font-size: 38px;
+    font-family: 'Roboto';  
+    text-decoration: none;
+}
+.cad-link:hover{
+    color: white;
 }
